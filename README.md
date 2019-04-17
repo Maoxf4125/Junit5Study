@@ -33,3 +33,16 @@ Junit5Study
 #AllTestAction
     使用发现测试以及测试执行，可以运行多个测试类；  
     Junit4使用测试套件Suite等方法进行多个测试类的执行，在Junit5中使用LauncherDiscoveryRequest、Launcher来实现
+
+#ParametersTest  
+    参数化测试方法，目前只提供了ValueSource、CsvSource两种注解方式  
+
+#TagTest  
+    增加标签测试，以及如何进行筛选标签  
+    （结合ExtendWith注解来进行筛选）  
+
+#OrderTest  
+    顺序执行测试的方法  
+
+#MyAnnotationTest  
+    增加如何自定义注解，以及使用自定义注解来进行测试  
